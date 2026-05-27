@@ -3,7 +3,7 @@ export const proiecteInginerie = [
   {
     id: 1,
     categorie: "Embedded",
-    img: "src/imgs/kit_tele.png",
+    img: "/kit_tele.png",
     statusKey: "active", // Albastru în CSS
     ro: { 
       title: "Kit Telemetrie Auto", 
@@ -24,7 +24,7 @@ export const proiecteInginerie = [
     id: 2,
     categorie: "Android",
     link: "https://github.com/stefanmatei323/HotWheelsCastingCatalog" ,
-    img: "/src/imgs/hwcc.png",
+    img: "/hwcc.png",
     statusKey: "completed", // Gri în CSS pentru mentenanță
     ro: { 
       title: "Primul Proiect - HotWheelsCC", 
@@ -45,7 +45,7 @@ export const proiecteInginerie = [
     id: 3,
     categorie: "Automotive", //noua categorie
     link: "", 
-    img: "/src/imgs/wankel.png", // Poza cu motorul
+    img: "/wankel.png", // Poza cu motorul
     statusKey: "completed", 
     
     ro: {
