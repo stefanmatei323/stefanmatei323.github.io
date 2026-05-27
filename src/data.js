@@ -76,7 +76,7 @@ export const translations = {
     catAndroid: "Dezvoltare Android",
     catAutomotive: "Mecanică & Automotive",
     cvBtn: "Descarcă CV",
-    bio: "Sunt student în cadrul facultății de Electronică, Telecomunicații și Tehnologii informationale, în paralel cu studiile, îmi place să experimentez aplicând teoria în proiecte practice.\n\n Pasiunea mea principală este intersecția dintre design, electronică și mecanică auto, lucru care se reflectă în majoritatea lucrărilor postate aici. Cred în colaborare și în software-ul liber (Open Source), motiv pentru care vreau să împărtășesc soluțiile găsite. Acest site este un spațiu în continuă creștere, unde postez progresul meu tehnic și noile direcții în care aleg să mă dezvolt.",
+    bio: "*Notă: Număr de telefon ascuns pentru confidențialitate. Disponibil la cerere prin e-mail sau LinkedIn. Sunt student în cadrul facultății de Electronică, Telecomunicații și Tehnologii informationale, în paralel cu studiile, îmi place să experimentez aplicând teoria în proiecte practice.\n\n Pasiunea mea principală este intersecția dintre design, electronică și mecanică auto, lucru care se reflectă în majoritatea lucrărilor postate aici. Cred în colaborare și în software-ul liber (Open Source), motiv pentru care vreau să împărtășesc soluțiile găsite. Acest site este un spațiu în continuă creștere, unde postez progresul meu tehnic și noile direcții în care aleg să mă dezvolt.",
     viewBtn: "Vezi Proiect",
     lang: "EN"
   },
@@ -91,7 +91,7 @@ export const translations = {
     catAndroid: "Android Development",
     catAutomotive: "Mechanics & Automotive",
     cvBtn: "Download CV",
-    bio: "I am a student at the Faculty of Electronics, Telecommunications, and Information Technologies. Alongside my academic studies, I enjoy experimenting by applying theory to hands-on projects.\n\n My primary passion lies at the intersection of design, electronics, and automotive mechanics, a focus reflected in most of the work shared here. I am a firm believer in collaboration and Open Source software, which is why I choose to share the solutions I develop. This website is a constantly evolving space where I document my technical progress and the new directions in which I am growing.",
+    bio: "*Note: Phone number omitted for privacy. Available upon request via email or LinkedIn. I am a student at the Faculty of Electronics, Telecommunications, and Information Technologies. Alongside my academic studies, I enjoy experimenting by applying theory to hands-on projects.\n\n My primary passion lies at the intersection of design, electronics, and automotive mechanics, a focus reflected in most of the work shared here. I am a firm believer in collaboration and Open Source software, which is why I choose to share the solutions I develop. This website is a constantly evolving space where I document my technical progress and the new directions in which I am growing.",
     viewBtn: "View Project",
     lang: "RO"
   }
