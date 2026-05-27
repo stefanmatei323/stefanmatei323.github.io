@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; /* <-- Aceasta este linia lipsă! */
 import { HiOutlineDownload, HiOutlineMail } from "react-icons/hi";
 import './Pages.css';
 
