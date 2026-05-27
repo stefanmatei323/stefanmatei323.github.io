@@ -1,0 +1,64 @@
+@import url('https://cdn.jsdelivr.net/npm/geist@1.3.0/dist/fonts/geist-sans/style.css');
+
+:root {
+  --bg-dark: rgba(29, 27, 32, 1);
+  --lime: rgba(181, 230, 29, 1);    /*#bfff00;*/;
+  --alabstru-completed:rgba(49, 120, 246, 1);
+  --albastru-cbg:rgba(40, 49, 61, 1);
+  --albastru-activ:rgba(47, 175, 205, 1);
+  --albastru-abg:rgba(39, 55, 56, 1);
+  --gri-archived:rgba(135, 133, 129, 1);
+  --visiniu-archivedbg:rgba(59, 46, 35, 1);
+  --text-gray: #a0a0a0;
+  --border: #2a2a2c;
+  --font-geist: 'Geist Sans', sans-serif;
+}
+
+/* 1. Setăm baza pe body, nu pe selectorul universal '*' */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-dark);
+  color: white;
+  font-family: var(--font-geist); /* Aplicăm fontul moștenit */
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* 2. Ne asigurăm că elementele de interfață preiau corect fontul */
+button, input, select, textarea, a {
+  font-family: inherit;
+}
+
+/* 3. REGLAJE FINE PENTRU ASPECTUL PREMIUM */
+h1, h2, h3, .logo {
+  font-weight: 800; /* Foarte bold pentru titluri */
+  letter-spacing: -0.02em; /* Aspect mai modern, "strâns" */
+}
+
+p, .nav-item {
+  font-weight: 400; /* Normal pentru text lizibil */
+  color: var(--text-gray);
+}
+
+.p-tag, .p-status {
+  font-weight: 600; /* Semibold pentru etichete mici */
+  font-size: 0.85rem;
+}
+
+/* 4. FIX PENTRU SCROLLBAR (Să nu mai apară banda albă) */
+html {
+  background-color: var(--bg-dark);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+  border: 2px solid var(--bg-dark);
+}
