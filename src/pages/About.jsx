@@ -6,7 +6,7 @@ const About = ({ t }) => {
   
   // Funcția care forțează deschiderea PDF-ului într-un tab nou
   const handleOpenCV = () => {
-    window.open('/src/imgs/cv.pdf', '_blank');
+    window.open('/cv.pdf', '_blank');
   };
 
   return (
@@ -26,14 +26,14 @@ const About = ({ t }) => {
           </button>
 
           {/* Butonul de contact rămâne link */}
-          <a 
-            href="/contact"
+          <Link 
+            to="/contact"
             className="btn-pill-outline"
             style={{ textDecoration: 'none' }}
           >
             <HiOutlineMail className="btn-icon" />
             <span>{t.contact}</span>
-          </a>
+          </Link>
         </div>
 
         <div className="dark-bio-card">
