@@ -24,7 +24,7 @@ export const proiecteInginerie = [
     id: 2,
     categorie: "Android",
     link: "https://github.com/stefanmatei323/HotWheelsCastingCatalog" ,
-    img: "src/imgs/hwcc.png",
+    img: "/src/imgs/hwcc.png",
     statusKey: "completed", // Gri în CSS pentru mentenanță
     ro: { 
       title: "Primul Proiect - HotWheelsCC", 
@@ -45,19 +45,19 @@ export const proiecteInginerie = [
     id: 3,
     categorie: "Automotive", //noua categorie
     link: "", 
-    img: "src/imgs/wankel.png", // Poza cu motorul
+    img: "/src/imgs/wankel.png", // Poza cu motorul
     statusKey: "completed", 
     
     ro: {
       title: "Reconstrucție Motor Mazda RX-8",
-      desc: "Reconstrucția completă a motorului rotativ Wankel 13B-MSP, incluzând înlocuirea apex seals și calibrarea toleranțelor fine pentru o compresie optimă.",
+      desc: "Reconstrucția completă a motorului rotativ Wankel 13B-MSP, incluzând înlocuirea pieselor defecte si verificarea toleranțelor.",
       status: "Finalizat",
       tags: ["Mecanică", "Motor Wankel", "Hardware"]
     },
     
     en: {
       title: "Mazda RX-8 Engine Rebuild",
-      desc: "Complete rebuild of the 13B-MSP Wankel rotary engine, including apex seals replacement and fine tolerance calibration for optimal compression.",
+      desc: "Complete rebuild of the 13B-MSP Wankel rotary engine, including replacement of defective parts and verification of tolerances.",
       status: "Completed",
       tags: ["Mechanics", "Wankel Engine", "Hardware"]
     }
