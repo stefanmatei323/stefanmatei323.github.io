@@ -91,7 +91,7 @@ nav {
 /* --- SALVAREA PENTRU MOBIL --- */
 @media (max-width: 768px) {
   .main-content, .page-padding {
-    align-items: flex-start !important; 
+    align-items: center !important; 
   }
 
   .container {

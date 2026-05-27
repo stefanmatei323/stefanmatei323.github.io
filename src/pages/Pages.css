@@ -138,25 +138,29 @@
   }
 }
 /* --- LAYOUT GENERAL CONTACT --- */
-.contact-page-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .contact-grid-layout {
   display: flex;
-  gap: 60px; /* Spațiu între coloana de Email și cea de Social Media */
+  flex-direction: row; 
+  gap: 60px; 
   justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap; /* Pe mobil vor cădea una sub alta */
+  align-items: flex-start; 
+  flex-wrap: wrap; 
   margin-top: 20px;
+  width: 100%;
 }
 
 .contact-section {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  align-items: flex-start; 
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center; /* <-- ADAUGAT: Centrează perfect titlul verde și butoanele */
 }
 
 .contact-label {
@@ -243,16 +247,25 @@
   color: var(--lime); /* Se face verde când e copiat */
 }
 
-/* --- RESPONSIVE --- */
+/* --- RESPONSIVE CONTACT --- */
 @media (max-width: 768px) {
   .contact-grid-layout {
     gap: 40px;
     flex-direction: column;
-    align-items: stretch; /* Le întinde pe tot ecranul pe mobil */
+    align-items: center; 
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .contact-section {
+    width: 100%;
+    box-sizing: border-box;
   }
   
   .contact-box {
-    width: 100%;
+    width: 100% !important;
+    box-sizing: border-box !important; /* Salvarea pentru margini */
+    margin: 0; /* Previne ieșirea din ecran spre dreapta */
   }
 }
 /* =========================================
@@ -262,7 +275,10 @@
 .about-page-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrează totul pe mijloc */
+  align-items: center; 
+  justify-content: center; /* Asigură centrarea pe axa verticală, dacă e cazul */
+  width: 90%;
+  margin: 0 auto; /* Forțează containerul pe centru */
 }
 
 /* Rândul cu butoane */
@@ -351,20 +367,20 @@
 }
 
 /* Ajustări pentru mobil */
+
 @media (max-width: 768px) {
-  .dark-bio-card {
-    padding: 30px 20px;
-  }
-  
   .about-btns-row {
-    gap: 15px;
-    flex-direction: column; /* Pune butoanele unul sub altul pe telefoane */
+    flex-direction: column; 
     width: 100%;
+    gap: 15px;
+    margin: 0 auto 40px auto; /* Asigură centrarea containerului */
+    box-sizing: border-box;
   }
   
   .btn-pill-lime, 
   .btn-pill-outline {
-    width: 100%; /* Butoanele ocupă toată lățimea pe ecran mic */
-    justify-content: center;
+    width: 100% !important; 
+    box-sizing: border-box !important; /* ASTA REZOLVĂ IEȘIREA DIN ECRAN */
+    margin: 0; /* Previne orice împingere laterală */
   }
 }
